@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shaxriyor</title>
+</head>
+
+<body>
+    <header>
+        <a href="{% url 'home' %}">Yangilik</a>
+        <a href="{% url 'create_view' %}">Yangi post yaratish</a>
+    </header>
+<div>
+    {% block content %}
+
+    {% endblock content %}
+</div>
+</body>
+</html>
+
